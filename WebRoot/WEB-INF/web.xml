@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LouyuUpdate</servlet-name>
+    <servlet-class>com.servlet.LouyuUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LouyuDelete</servlet-name>
+    <servlet-class>com.servlet.LouyuDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LouyuInsert</servlet-name>
+    <servlet-class>com.servlet.LouyuInsert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ZhuhuUpdate</servlet-name>
+    <servlet-class>com.servlet.ZhuhuUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ZhuhuDelete</servlet-name>
+    <servlet-class>com.servlet.ZhuhuDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ZhuhuInsert</servlet-name>
+    <servlet-class>com.servlet.ZhuhuInsert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TousuUpdate</servlet-name>
+    <servlet-class>com.servlet.TousuUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TousuDelete</servlet-name>
+    <servlet-class>com.servlet.TousuDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TousuInsert</servlet-name>
+    <servlet-class>com.servlet.TousuInsert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BaoxiuUpdate</servlet-name>
+    <servlet-class>com.servlet.BaoxiuUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BaoxiuDelete</servlet-name>
+    <servlet-class>com.servlet.BaoxiuDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BaoxiuInsert</servlet-name>
+    <servlet-class>com.servlet.BaoxiuInsert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Pass</servlet-name>
+    <servlet-class>com.servlet.Pass</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BumenUpdate</servlet-name>
+    <servlet-class>com.servlet.BumenUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BumenDelete</servlet-name>
+    <servlet-class>com.servlet.BumenDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BumenInsert</servlet-name>
+    <servlet-class>com.servlet.BumenInsert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ZhigongUpdate</servlet-name>
+    <servlet-class>com.servlet.ZhigongUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ZhigongDelete</servlet-name>
+    <servlet-class>com.servlet.ZhigongDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ZhigongInsert</servlet-name>
+    <servlet-class>com.servlet.ZhigongInsert</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LouyuUpdate</servlet-name>
+    <url-pattern>/LouyuUpdate.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LouyuDelete</servlet-name>
+    <url-pattern>/LouyuDelete.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LouyuInsert</servlet-name>
+    <url-pattern>/LouyuInsert.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ZhuhuUpdate</servlet-name>
+    <url-pattern>/ZhuhuUpdate.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ZhuhuDelete</servlet-name>
+    <url-pattern>/ZhuhuDelete.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ZhuhuInsert</servlet-name>
+    <url-pattern>/ZhuhuInsert.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TousuUpdate</servlet-name>
+    <url-pattern>/TousuUpdate.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TousuDelete</servlet-name>
+    <url-pattern>/TousuDelete.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TousuInsert</servlet-name>
+    <url-pattern>/TousuInsert.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BaoxiuUpdate</servlet-name>
+    <url-pattern>/BaoxiuUpdate.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BaoxiuDelete</servlet-name>
+    <url-pattern>/BaoxiuDelete.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BaoxiuInsert</servlet-name>
+    <url-pattern>/BaoxiuInsert.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Pass</servlet-name>
+    <url-pattern>/Pass.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BumenUpdate</servlet-name>
+    <url-pattern>/BumenUpdate.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BumenDelete</servlet-name>
+    <url-pattern>/BumenDelete.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BumenInsert</servlet-name>
+    <url-pattern>/BumenInsert.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ZhigongUpdate</servlet-name>
+    <url-pattern>/ZhigongUpdate.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ZhigongDelete</servlet-name>
+    <url-pattern>/ZhigongDelete.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ZhigongInsert</servlet-name>
+    <url-pattern>/ZhigongInsert.bin</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

@@ -1,0 +1,94 @@
+create database wuye;
+use wuye;
+
+create table user(
+	userid varchar(6) primary key,
+	username varchar(20),
+	password varchar(20),
+	type int,
+	nameid int
+); 	
+
+insert into user values('001','张三','001',0,0);
+insert into user values('002','李四','002',0,1);
+insert into user values('0001','管理员A','0001',1,2);
+
+create table louyu(
+	louyuid varchar(6) primary key,
+	leibie varchar(20),
+	chaoxiang varchar(6),
+	censhu int,
+	mianji double 
+);
+insert into louyu values('1','普通型','南',10,1000.00);
+insert into louyu values('2','普通型','北',10,1000.00);
+insert into louyu values('3','豪华型','南',10,1000.00);
+
+create table zhuhu(
+	zhuhuid varchar(6) primary key,
+	name varchar(20),
+	sex varchar(2),
+	idcard varchar(18),
+	fangxing varchar(10),
+	mianji double,
+	tel varchar(12)
+);
+insert into zhuhu values('1','张三','女','12345678910','豪华型','80','110');
+insert into zhuhu values('2','李四','男','12345678910','豪华型','80','110');
+
+
+create table tousu(
+	tousuid varchar(6) primary key,
+	name varchar(10),
+	date datetime,
+	neirong varchar(100),
+	tel char(12),
+	chuliname varchar(10),
+	chulidate datetime,
+	qingkuang varchar(10),
+	nameid int
+);
+insert into tousu values('1','张三','2015-01-01','家里漏水','110','李明','2015-01-02','已处理',0);
+insert into tousu values('2','李四','2015-01-01','家里漏水','110','李红','2015-01-02','已处理',1);
+
+create table baoxiu(
+	baoxiuid varchar(6) primary key,
+	name varchar(10),
+	date datetime,
+	neirong varchar(100),
+	tel varchar(12),
+	weixiuname varchar(10),
+	wanchengdate datetime,
+	feiyong int,
+	qingkuang varchar(10),
+	nameid int
+);
+insert into baoxiu values('1','张三','2015-01-02','灯损坏','110','邱明','2015-01-03','100','已完成',0);
+insert into baoxiu values('2','李四','2015-01-02','灯损坏','110','邱明','2015-01-03','100','已完成',1);
+
+create table bumen(
+	bumenid varchar(6) primary key,
+	bumenname varchar(10),
+	zhiwu varchar(10),
+	name varchar(10)
+);
+insert into bumen values('1','人事部','经理','王月');
+insert into bumen values('2','销售部','副经理','李康');
+insert into bumen values('3','保洁部','副经理','萧蔷');
+
+create table zhigong(
+	zhigongid varchar(6) primary key,
+	name varchar(10),
+	sex varchar(2),
+	bumen varchar(10),
+	chuqing varchar(10),
+	gongzi int,
+	tel varchar(12)
+);
+insert into zhigong values('1','小红','女','保洁部','28','3000','15604419306');
+insert into zhigong values('2','小明','男','销售部','28','4000','15604419306');
+insert into zhigong values('3','小强','男','人事部部','28','5000','15604419306');
+insert into zhigong values('4','小花','女','保洁部','28','2000','15604419306');
+insert into zhigong values('5','小李','男','销售部','28','6000','15604419306');
+
+
